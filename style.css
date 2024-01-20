@@ -1,0 +1,61 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    line-height: 1.8rem;
+}
+.parallax-img1,.parallax-img2,.parallax-img3{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+.parallax-img1{
+    background-image: url(./images/pexels-jaime-reimer-2695232.jpg);
+    min-height: 100%;
+
+}
+
+.parallax-img2{
+    background-image: url(./images/pexels-piccinng-3075993.jpg);
+    min-height: 400px;
+    
+}
+
+.parallax-img3{
+    background-image: url(./images/pexels-johannes-plenio-1118866.jpg);
+    min-height: 400px;
+    
+}
+
+.parallax{
+    text-align: center;
+    padding: 50px 80px;
+}
+.Heading{
+    position: absolute;
+    margin-left: 37rem;
+    font-size: 23px;
+    
+
+}
+.head{
+    margin-top: 22rem;
+    font-weight: 600;
+    mix-blend-mode: overlay;
+
+}
+p{
+    font-size: 20px;
+}
+
+
+@media screen(max-width:568px) {
+    .parallax-img1,.parallax-img2,.parallax-img3{
+        background-attachment: scroll;
+    }
+    
+}
